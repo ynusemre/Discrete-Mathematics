@@ -1,0 +1,56 @@
+9
+(a,a)(a,b)(a,e)(b,b)(b,e)(c,c)(c,d)(d,d)(e,e)
+Reflexive: Yes, all elements are present.
+Symmetric: No, (a,b) is found whereas (b,a) is not found.
+Ansymmetric: Yes, (a,b) is found whereas (b,a) is not found.
+Transitive: Yes, (a,e) is found since (a,b) and (b,e) are found.
+
+8
+(a,a)(a,b)(b,a)(b,b)(c,c)(c,d)(d,c)(d,d)
+Reflexive: No, For e, (e,e) does not exist.
+Symmetric: Yes,(a,b) is found whereas (b,a) is found.
+Ansymmetric: No, (a,b) is found whereas (b,a) is found.
+Transitive: Yes, (d,d) is found since (d,c) and (c,d) are found.
+
+5
+(a,a)(b,b)(c,c)(d,d)(e,e)
+Reflexive: Yes, all elements are present.
+Symmetric: Yes,(a,a) is found whereas (a,a) is found.
+Ansymmetric: Yes, (a,a) is found whereas (a,a) is not found.
+Transitive: Yes,(a,a) is found whereas (a,a) is found.
+
+3
+(1,1)(1,2)(2,1)
+Reflexive: No, For 2, (2,2) does not exist.
+Symmetric: Yes,(1,2) is found whereas (2,1) is found.
+Ansymmetric: No, (1,2) is found whereas (2,1) is found.
+Transitive: No, (2,2) is not found since (2,1) and (1,2) are found.
+
+7
+(1,1)(1,2)(2,1)(2,2)(3,4)(4,1)(4,4)
+Reflexive: No, For 3, (3,3) does not exist.
+Symmetric: No, (3,4) is found whereas (4,3) is not found.
+Ansymmetric: No, (1,2) is found whereas (2,1) is found.
+Transitive: No, (3,1) is not found since (3,4) and (4,1) are found.
+
+6
+(2,1)(3,1)(3,2)(4,1)(4,2)(4,3)
+Reflexive: No, For 1, (1,1) does not exist.
+Symmetric: No, (2,1) is found whereas (1,2) is not found.
+Ansymmetric: Yes, (2,1) is found whereas (1,2) is not found.
+Transitive: Yes, (4,2) is found since (4,3) and (3,2) are found.
+
+10
+(1,1)(1,2)(1,3)(1,4)(2,2)(2,3)(2,4)(3,3)(3,4)(4,4)
+Reflexive: Yes, all elements are present.
+Symmetric: No, (1,2) is found whereas (2,1) is not found.
+Ansymmetric: Yes, (1,2) is found whereas (2,1) is not found.
+Transitive: Yes, (2,4) is found since (2,3) and (3,4) are found.
+
+8
+(1,1)(1,2)(1,4)(2,1)(2,2)(3,3)(4,1)(4,4)
+Reflexive: Yes, all elements are present.
+Symmetric: Yes,(1,2) is found whereas (2,1) is found.
+Ansymmetric: No, (1,2) is found whereas (2,1) is found.
+Transitive: No, (2,4) is not found since (2,1) and (1,4) are found.
+
